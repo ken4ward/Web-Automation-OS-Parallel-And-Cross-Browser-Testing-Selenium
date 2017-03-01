@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppZoneTestProjects.Functional.Settings.Interface.SystemAdmin.Users" GeneratedClassName="UserValidation">
+  <Profiles />
+  <Settings>
+    <Setting Name="UserFooter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#UserAddUI &gt; footer</Value>
+    </Setting>
+    <Setting Name="HeaderText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#UserAddUI &gt; div &gt; header &gt; h2</Value>
+    </Setting>
+    <Setting Name="RegistrationFailedResponse" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#bigBoxColor3 &gt; p</Value>
+    </Setting>
+    <Setting Name="UserPageLoad" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Users_wrapper &gt; div.dt-toolbar-footer</Value>
+    </Setting>
+    <Setting Name="RegistrationFailedPanels" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#bigBox1</Value>
+    </Setting>
+    <Setting Name="CloseFailedPanel" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#botClose1</Value>
+    </Setting>
+    <Setting Name="Setting" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

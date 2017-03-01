@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppZoneTestProjects.Functional.Settings.Interface.Workspace" GeneratedClassName="WorkspaceValidation">
+  <Profiles />
+  <Settings>
+    <Setting Name="WFTopIconsDropdown" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#form1 &gt; div.inbox-nav-bar.no-content-padding &gt; h1 &gt; span &gt; a</Value>
+    </Setting>
+    <Setting Name="WFTopIconBack" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#form1 &gt; div.inbox-nav-bar.no-content-padding &gt; div.inbox-checkbox-triggered &gt; div &gt; a.inbox-load.btn.btn-default &gt; strong &gt; i</Value>
+    </Setting>
+    <Setting Name="WFTopIconFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#form1 &gt; div.inbox-nav-bar.no-content-padding &gt; div.inbox-checkbox-triggered &gt; div &gt; a:nth-child(2) &gt; strong &gt; i</Value>
+    </Setting>
+    <Setting Name="WFTopIconDelete" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#form1 &gt; div.inbox-nav-bar.no-content-padding &gt; div.inbox-checkbox-triggered &gt; div &gt; a.deletebutton.btn.btn-default &gt; strong &gt; i</Value>
+    </Setting>
+    <Setting Name="WFTopIconBackward" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#form1 &gt; div.inbox-nav-bar.no-content-padding &gt; div.btn-group.pull-right.inbox-paging &gt; a:nth-child(1)</Value>
+    </Setting>
+    <Setting Name="WFTopIconForward" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#form1 &gt; div.inbox-nav-bar.no-content-padding &gt; div.btn-group.pull-right.inbox-paging &gt; a:nth-child(2)</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

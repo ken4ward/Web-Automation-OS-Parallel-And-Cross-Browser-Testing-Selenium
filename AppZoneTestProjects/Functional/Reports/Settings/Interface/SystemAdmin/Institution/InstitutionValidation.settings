@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppZoneTestProjects.Functional.Settings.Interface.SystemAdmin.Institution" GeneratedClassName="InstitutionValidation">
+  <Profiles />
+  <Settings>
+    <Setting Name="InstitutionFooter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Institutions_wrapper &gt; div.dt-toolbar-footer</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

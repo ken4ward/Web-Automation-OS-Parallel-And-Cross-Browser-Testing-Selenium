@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppZoneTestProjects.Functional.Settings.Interface.Workspace" GeneratedClassName="WorkspaceElement">
+  <Profiles />
+  <Settings>
+    <Setting Name="WFTreated" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#left-panel &gt; nav &gt; ul &gt; li.open &gt; ul &gt; li.open &gt; ul &gt; li:nth-child(3) &gt; a</Value>
+    </Setting>
+    <Setting Name="WFSent" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#left-panel &gt; nav &gt; ul &gt; li.open &gt; ul &gt; li.open &gt; ul &gt; li:nth-child(2) &gt; a</Value>
+    </Setting>
+    <Setting Name="WFInbox" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#left-panel &gt; nav &gt; ul &gt; li.open &gt; ul &gt; li.open &gt; ul &gt; li:nth-child(1) &gt; a</Value>
+    </Setting>
+    <Setting Name="WFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#left-panel &gt; nav &gt; ul &gt; li.open &gt; ul &gt; li:nth-child(1) &gt; a</Value>
+    </Setting>
+    <Setting Name="Workspace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#left-panel &gt; nav &gt; ul &gt; li:nth-child(1) &gt; a</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

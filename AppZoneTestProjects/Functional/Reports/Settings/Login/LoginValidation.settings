@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppZoneTestProjects.Functional.Settings.Login" GeneratedClassName="LoginValidation">
+  <Profiles />
+  <Settings>
+    <Setting Name="ImageValidatePageLoad" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#content &gt; div &gt; div.col-xs-12.col-sm-12.col-md-7.col-lg-8.hidden-xs.hidden-sm &gt; div.hero &gt; img</Value>
+    </Setting>
+    <Setting Name="LoginSuccessfulValidate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#ChangePasswordUI &gt; footer</Value>
+    </Setting>
+    <Setting Name="FailedLoginPanel" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Msg1</Value>
+    </Setting>
+    <Setting Name="ChangePassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#ChangePasswordUI &gt; div &gt; header &gt; h2</Value>
+    </Setting>
+    <Setting Name="DefaultFooter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">body &gt; div.page-footer &gt; div</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

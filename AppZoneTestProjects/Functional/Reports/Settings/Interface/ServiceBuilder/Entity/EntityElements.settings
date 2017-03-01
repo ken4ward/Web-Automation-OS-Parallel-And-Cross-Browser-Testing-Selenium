@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppZoneTestProjects.Functional.Settings.Interface.ServiceBuilder.Entity" GeneratedClassName="EntityElements">
+  <Profiles />
+  <Settings>
+    <Setting Name="EntityName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Name</Value>
+    </Setting>
+    <Setting Name="EntityDescription" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Description</Value>
+    </Setting>
+    <Setting Name="EntityDisplayName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#DisplayName</Value>
+    </Setting>
+    <Setting Name="EntityStatus" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#MainEntityAddUI &gt; fieldset:nth-child(2) &gt; div:nth-child(1) &gt; section:nth-child(2) &gt; label.toggle &gt; i</Value>
+    </Setting>
+    <Setting Name="EntityGlobal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#MainEntityAddUI &gt; fieldset:nth-child(2) &gt; div:nth-child(3) &gt; section &gt; label.toggle &gt; i</Value>
+    </Setting>
+    <Setting Name="EntityNewCategory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#MainEntityAddUI &gt; fieldset:nth-child(4) &gt; section:nth-child(1) &gt; label.toggle &gt; i</Value>
+    </Setting>
+    <Setting Name="EntityCategory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#select2-chosen-34</Value>
+    </Setting>
+    <Setting Name="EntityAddProp" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#MainEntityAddUI &gt; button</Value>
+    </Setting>
+    <Setting Name="EntitySave" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Save</Value>
+    </Setting>
+    <Setting Name="Setting" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Parameters_1_Name</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

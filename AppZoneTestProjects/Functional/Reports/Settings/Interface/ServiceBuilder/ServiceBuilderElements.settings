@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppZoneTestProjects.Functional.Settings.Interface.ServiceBuilder" GeneratedClassName="ServiceBuilderElements">
+  <Profiles />
+  <Settings>
+    <Setting Name="ServiceBuilder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#left-panel &gt; nav &gt; ul &gt; li:nth-child(5) &gt; a &gt; span</Value>
+    </Setting>
+    <Setting Name="SelectAService" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#select2-chosen-2</Value>
+    </Setting>
+    <Setting Name="DefaultClick" Type="System.String" Scope="User">
+      <Value Profile="(Default)">body &gt; script:nth-child(34)</Value>
+    </Setting>
+    <Setting Name="CreateEntity" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#mainMenuNav &gt; li &gt; a</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

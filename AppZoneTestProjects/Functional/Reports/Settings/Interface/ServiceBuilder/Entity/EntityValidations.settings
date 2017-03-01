@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppZoneTestProjects.Functional.Settings.Interface.ServiceBuilder.Entity" GeneratedClassName="EntityValidations">
+  <Profiles />
+  <Settings>
+    <Setting Name="EntityAddField" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#MainEntityAddUI &gt; div &gt; details &gt; fieldset</Value>
+    </Setting>
+    <Setting Name="EntityAddFooter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#MainEntityAddUI &gt; footer</Value>
+    </Setting>
+    <Setting Name="Setting" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#MainEntityAddUI &gt; div &gt; details &gt; fieldset &gt; button</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppZoneTestProjects.Functional.Settings.Interface.SystemAdmin.Users" GeneratedClassName="UserElements">
+  <Profiles />
+  <Settings>
+    <Setting Name="FirstName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#OtherNames</Value>
+    </Setting>
+    <Setting Name="Phone" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#PhoneNo</Value>
+    </Setting>
+    <Setting Name="LastName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#LastName</Value>
+    </Setting>
+    <Setting Name="Email" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Email</Value>
+    </Setting>
+    <Setting Name="EmployeeNo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#EmployeeNo</Value>
+    </Setting>
+    <Setting Name="UserRole" Type="System.String" Scope="User">
+      <Value Profile="(Default)">span[id^='-chosen-']</Value>
+    </Setting>
+    <Setting Name="Designation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Designation</Value>
+    </Setting>
+    <Setting Name="UserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#UserName</Value>
+    </Setting>
+    <Setting Name="GrantApprovalRights" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#UserAddUI &gt; fieldset:nth-child(6) &gt; div:nth-child(2) &gt; section &gt; label.toggle &gt; i</Value>
+    </Setting>
+    <Setting Name="GrandSuperAdminPrivileges" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#UserAddUI &gt; fieldset:nth-child(6) &gt; div:nth-child(3) &gt; section &gt; label.toggle &gt; i</Value>
+    </Setting>
+    <Setting Name="SaveButton" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Save</Value>
+    </Setting>
+    <Setting Name="CreateUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#mainMenuNav &gt; li &gt; a</Value>
+    </Setting>
+    <Setting Name="Reset" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Reset</Value>
+    </Setting>
+    <Setting Name="SearchUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Search</Value>
+    </Setting>
+    <Setting Name="UserListView" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#UserListUI &gt; div:nth-child(3)</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

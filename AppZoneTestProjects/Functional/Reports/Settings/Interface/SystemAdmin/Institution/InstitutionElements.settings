@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppZoneTestProjects.Functional.Settings.Interface.SystemAdmin.Institution" GeneratedClassName="InstitutionElements">
+  <Profiles />
+  <Settings>
+    <Setting Name="InstitutionName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Name</Value>
+    </Setting>
+    <Setting Name="InstitutionEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Email</Value>
+    </Setting>
+    <Setting Name="InstitutionPhone" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Phone</Value>
+    </Setting>
+    <Setting Name="InstitutionShortName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#ShortName</Value>
+    </Setting>
+    <Setting Name="InstitutionDefaultBranchName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#DefaultBranchName</Value>
+    </Setting>
+    <Setting Name="InstitutionDefaultRegionName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#DefaultRegionName</Value>
+    </Setting>
+    <Setting Name="InstitutionAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Address</Value>
+    </Setting>
+    <Setting Name="InstitutionSlogan" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Slogan</Value>
+    </Setting>
+    <Setting Name="InstituteAdminFirstName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#FirstName</Value>
+    </Setting>
+    <Setting Name="InstituteAdminLastName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#LastName</Value>
+    </Setting>
+    <Setting Name="InstituteAdminContactPhone" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#ContactPhone</Value>
+    </Setting>
+    <Setting Name="InstituteAdminContactEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#ContactEmail</Value>
+    </Setting>
+    <Setting Name="InstitutionSave" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Save</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

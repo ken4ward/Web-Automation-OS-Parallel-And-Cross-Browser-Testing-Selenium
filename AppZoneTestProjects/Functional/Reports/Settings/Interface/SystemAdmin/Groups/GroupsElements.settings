@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppZoneTestProjects.Functional.Settings.Interface.SystemAdmin.Groups" GeneratedClassName="GroupsElements">
+  <Profiles />
+  <Settings>
+    <Setting Name="Groups" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#left-panel &gt; nav &gt; ul &gt; li.open &gt; ul &gt; li:nth-child(2) &gt; a</Value>
+    </Setting>
+    <Setting Name="GroupAdd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#mainMenuNav &gt; li &gt; a</Value>
+    </Setting>
+    <Setting Name="GroupName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Name</Value>
+    </Setting>
+    <Setting Name="GroupCode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Code</Value>
+    </Setting>
+    <Setting Name="GroupSearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Search</Value>
+    </Setting>
+    <Setting Name="GroupReset" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Reset</Value>
+    </Setting>
+    <Setting Name="GroupSave" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Save</Value>
+    </Setting>
+    <Setting Name="GroupSysAdminFunc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GrantSystemAdminFuncs</Value>
+    </Setting>
+    <Setting Name="GroupUserFunctions" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#s2id_TheFunctions &gt; ul</Value>
+    </Setting>
+    <Setting Name="GroupDevFunction" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GrantServiceBuilderFuncs</Value>
+    </Setting>
+    <Setting Name="GroupAddFooter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#UserRoleAddUI &gt; footer</Value>
+    </Setting>
+    <Setting Name="GroupFooter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#UserRoles_wrapper &gt; div.dt-toolbar-footer</Value>
+    </Setting>
+    <Setting Name="GroupDescription" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Description</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

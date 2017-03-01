@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\ken4ward\Documents\Visual Studio 2013\Projects\AppZoneTestProjects\AppZoneTestProjects\bin\Debug\AppZoneTestProjects.dll" total="5" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-04-14" time="11:55:22">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="CHRISTDOES" user="ken4ward" user-domain="CHRISTDOES" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\ken4ward\Documents\Visual Studio 2013\Projects\AppZoneTestProjects\AppZoneTestProjects\bin\Debug\AppZoneTestProjects.dll" executed="True" result="Success" success="True" time="721.404" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="AppZoneTestProjects" executed="True" result="Success" success="True" time="721.351" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Functional" executed="True" result="Success" success="True" time="721.349" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Runners" executed="True" result="Success" success="True" time="721.348" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Login" executed="True" result="Success" success="True" time="721.331" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="LoginRunner" executed="True" result="Success" success="True" time="721.206" asserts="0">
+                        <results>
+                          <test-case name="AppZoneTestProjects.Functional.Runners.Login.LoginRunner.TestChrome" executed="True" result="Success" success="True" time="317.468" asserts="0" />
+                          <test-case name="AppZoneTestProjects.Functional.Runners.Login.LoginRunner.TestFirefox" executed="True" result="Success" success="True" time="99.475" asserts="0" />
+                          <test-case name="AppZoneTestProjects.Functional.Runners.Login.LoginRunner.TestInternetExplorer" executed="True" result="Success" success="True" time="290.889" asserts="0" />
+                          <test-case name="AppZoneTestProjects.Functional.Runners.Login.LoginRunner.TestOpera" executed="True" result="Success" success="True" time="0.265" asserts="0" />
+                          <test-case name="AppZoneTestProjects.Functional.Runners.Login.LoginRunner.TestSafari" executed="True" result="Success" success="True" time="11.225" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

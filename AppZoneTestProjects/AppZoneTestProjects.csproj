@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4E0F55B4-DECB-4344-ADD6-F751B915C5A8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppZoneTestProjects</RootNamespace>
+    <AssemblyName>AppZoneTestProjects</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Functional\Libraries\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.mocks, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Functional\Libraries\nunit.mocks.dll</HintPath>
+    </Reference>
+    <Reference Include="pnunit.framework, Version=1.0.5463.34981, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Functional\Libraries\pnunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Selenium.WebDriverBackedSelenium, Version=2.45.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Functional\Libraries\Selenium.WebDriverBackedSelenium.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="ThoughtWorks.Selenium.Core, Version=2.45.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Selenium\SeleniumDesktop\DotNet\net40\ThoughtWorks.Selenium.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver, Version=2.45.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Functional\Libraries\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=2.45.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Functional\Libraries\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="Functional\Base\Base.cs" />
+    <Compile Include="Functional\Constants\Interface\ServiceBuilder\EntityConstants\EntityConstants.cs" />
+    <Compile Include="Functional\Constants\Interface\ServiceBuilder\ServiceBuilderConstants.cs" />
+    <Compile Include="Functional\Constants\Interface\SystemAdmin\SystemAdminConstants.cs" />
+    <Compile Include="Functional\Constants\Interface\SystemAdmin\GroupConstants.cs" />
+    <Compile Include="Functional\Constants\Interface\SystemAdmin\InstitutionConstants.cs" />
+    <Compile Include="Functional\Constants\Interface\SystemAdmin\UserConstants.cs" />
+    <Compile Include="Functional\Constants\Login\LoginConstants.cs" />
+    <Compile Include="Functional\Reports\ReportEngine.cs" />
+    <Compile Include="Functional\Reusables\Interface\SystemAdmin\GroupReusables.cs" />
+    <Compile Include="Functional\Reusables\Interface\SystemAdmin\InstitutionReusables.cs" />
+    <Compile Include="Functional\Reusables\Interface\SystemAdmin\UsersReusables.cs" />
+    <Compile Include="Functional\Reusables\Login\LoginReusables.cs" />
+    <Compile Include="Functional\Runners\Login\LoginRunner.cs" />
+    <Compile Include="Functional\Settings\Interface\ServiceBuilder\Entity\EntityElements.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>EntityElements.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Functional\Settings\Interface\ServiceBuilder\Entity\EntityValidations.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>EntityValidations.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Functional\Settings\Interface\ServiceBuilder\ServiceBuilderElements.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>ServiceBuilderElements.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Functional\Settings\Interface\SystemAdmin\Groups\GroupsElements.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>GroupsElements.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Functional\Settings\Interface\SystemAdmin\Groups\GroupsValidations.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>GroupsValidations.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Functional\Settings\Interface\SystemAdmin\Institution\InstitutionElements.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>InstitutionElements.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Functional\Settings\Interface\SystemAdmin\Institution\InstitutionValidation.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>InstitutionValidation.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Functional\Settings\Interface\SystemAdmin\SystemAdmins.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>SystemAdmins.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Functional\Settings\Interface\SystemAdmin\Users\UserElements.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>UserElements.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Functional\Settings\Interface\SystemAdmin\Users\UserValidation.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>UserValidation.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Functional\Settings\Interface\Workspace\WorkspaceElement.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>WorkspaceElement.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Functional\Settings\Interface\Workspace\WorkspaceValidation.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>WorkspaceValidation.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Functional\Settings\Login\LoginElements.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>LoginElements.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Functional\Settings\Login\LoginValidation.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>LoginValidation.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Functional\Suits\Login\LoginSuites.cs" />
+    <Compile Include="Functional\Suits\SystemAdmin\Group\GroupSuites.cs" />
+    <Compile Include="Functional\Suits\SystemAdmin\Group\GroupSearch.cs" />
+    <Compile Include="Functional\Suits\SystemAdmin\Institution\InstitutionSearch.cs" />
+    <Compile Include="Functional\Suits\SystemAdmin\Users\SearchUsers.cs" />
+    <Compile Include="Functional\Suits\SystemAdmin\Users\UserSuites.cs" />
+    <Compile Include="Functional\Utils\Interface\SystemAdmin\UserValidate.cs" />
+    <Compile Include="Functional\Utils\Login\LoginAssertions.cs" />
+    <Compile Include="Functional\Utils\Login\LoginValidations.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Functional\Constants\Interface\MyFunction\" />
+    <Folder Include="Functional\Constants\Interface\SolutionBuilder\" />
+    <Folder Include="Functional\Constants\Interface\Workspace\" />
+    <Folder Include="Functional\Reports\MyFunctions\" />
+    <Folder Include="Functional\Reports\ServiceBuilder\" />
+    <Folder Include="Functional\Reports\SolutionBuilder\" />
+    <Folder Include="Functional\Reusables\Interface\MyFunctions\" />
+    <Folder Include="Functional\Reusables\Interface\ServiceBuilder\" />
+    <Folder Include="Functional\Reusables\Interface\SolutionBuilder\" />
+    <Folder Include="Functional\Reusables\Interface\Workspace\" />
+    <Folder Include="Functional\Settings\Interface\MyFunctions\" />
+    <Folder Include="Functional\Settings\Interface\SolutionBuilder\" />
+    <Folder Include="Functional\Suits\MyFunctions\" />
+    <Folder Include="Functional\Suits\ServiceBuilder\" />
+    <Folder Include="Functional\Suits\SolutionBuilder\" />
+    <Folder Include="Functional\Suits\Workspace\" />
+    <Folder Include="Functional\Utils\Interface\MyFunctions\" />
+    <Folder Include="Functional\Utils\Interface\ServiceBuilder\" />
+    <Folder Include="Functional\Utils\Interface\SolutionBuilder\" />
+    <Folder Include="Functional\Utils\Interface\Workspace\" />
+    <Folder Include="Load\" />
+    <Folder Include="WebPerformance\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Functional\Settings\Interface\ServiceBuilder\Entity\EntityElements.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>EntityElements.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Functional\Settings\Interface\ServiceBuilder\Entity\EntityValidations.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>EntityValidations.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Functional\Settings\Interface\ServiceBuilder\ServiceBuilderElements.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>ServiceBuilderElements.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Functional\Settings\Interface\SystemAdmin\Groups\GroupsElements.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>GroupsElements.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Functional\Settings\Interface\SystemAdmin\Groups\GroupsValidations.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>GroupsValidations.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Functional\Settings\Interface\SystemAdmin\Institution\InstitutionElements.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>InstitutionElements.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Functional\Settings\Interface\SystemAdmin\Institution\InstitutionValidation.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>InstitutionValidation.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Functional\Settings\Interface\SystemAdmin\SystemAdmins.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>SystemAdmins.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Functional\Settings\Interface\SystemAdmin\Users\UserElements.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>UserElements.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Functional\Settings\Interface\SystemAdmin\Users\UserValidation.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>UserValidation.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Functional\Settings\Interface\Workspace\WorkspaceElement.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>WorkspaceElement.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Functional\Settings\Interface\Workspace\WorkspaceValidation.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>WorkspaceValidation.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Functional\Settings\Login\LoginElements.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>LoginElements.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Functional\Settings\Login\LoginValidation.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>LoginValidation.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Functional\Libraries\nunit.framework.dll" />
+    <Content Include="Functional\Libraries\nunit.mocks.dll" />
+    <Content Include="Functional\Libraries\pnunit.framework.dll" />
+    <Content Include="Functional\Libraries\Selenium.WebDriverBackedSelenium.dll" />
+    <Content Include="Functional\Libraries\ThoughtWorks.Selenium.Core.dll" />
+    <Content Include="Functional\Libraries\WebDriver.dll" />
+    <Content Include="Functional\Libraries\WebDriver.Support.dll" />
+    <Content Include="Functional\Reports\Login\LoginLogCounter.txt" />
+    <Content Include="Functional\Reports\Login\LoginReport.txt" />
+    <Content Include="Functional\Reports\SystemAdmin\Users\UserLog.txt" />
+    <Content Include="Functional\Reports\SystemAdmin\Users\UserLogCount.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

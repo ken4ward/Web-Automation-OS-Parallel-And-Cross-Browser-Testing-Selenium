@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppZoneTestProjects.Functional.Settings.Login" GeneratedClassName="LoginElements">
+  <Profiles />
+  <Settings>
+    <Setting Name="DejaVuURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">165.233.246.31/DejaVuMobile/TradeportLogin.aspx</Value>
+    </Setting>
+    <Setting Name="DejaVuUsernameTextbox" Type="System.String" Scope="User">
+      <Value Profile="(Default)">username</Value>
+    </Setting>
+    <Setting Name="DejaVuPasswordTextbox" Type="System.String" Scope="User">
+      <Value Profile="(Default)">password</Value>
+    </Setting>
+    <Setting Name="DejaVuInstitutionCodeTextbox" Type="System.String" Scope="User">
+      <Value Profile="(Default)">institutionCode</Value>
+    </Setting>
+    <Setting Name="DejaVuLoginButton" Type="System.String" Scope="User">
+      <Value Profile="(Default)">btnSigin</Value>
+    </Setting>
+    <Setting Name="SeleniumHubURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://localhost:4477/wd/hub</Value>
+    </Setting>
+    <Setting Name="DejavuFalseLoginOKButton" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#bot1-Msg1</Value>
+    </Setting>
+    <Setting Name="DejavuFalseLoginForm" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#Msg1 &gt; div</Value>
+    </Setting>
+    <Setting Name="FailedLoginButton" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#bot1-Msg1</Value>
+    </Setting>
+    <Setting Name="LoginSuccessful" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

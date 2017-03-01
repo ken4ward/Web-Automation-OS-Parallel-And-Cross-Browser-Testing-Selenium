@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1006]C:\Users\ken4ward\Documents\Visual Studio 2013\Projects\AppZoneTestProjects\AppZoneTestProjects\bin\Debug\AppZoneTestProjects.dll</TopNode>
+  <SelectedNode>[0-1006]C:\Users\ken4ward\Documents\Visual Studio 2013\Projects\AppZoneTestProjects\AppZoneTestProjects\bin\Debug\AppZoneTestProjects.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1006]C:\Users\ken4ward\Documents\Visual Studio 2013\Projects\AppZoneTestProjects\AppZoneTestProjects\bin\Debug\AppZoneTestProjects.dll" Expanded="true" />
+    <Node UniqueName="[0-1007]AppZoneTestProjects" Expanded="true" />
+    <Node UniqueName="[0-1008]AppZoneTestProjects.Functional" Expanded="true" />
+    <Node UniqueName="[0-1009]AppZoneTestProjects.Functional.Runners" Expanded="true" />
+    <Node UniqueName="[0-1010]AppZoneTestProjects.Functional.Runners.Login" Expanded="true" />
+    <Node UniqueName="[0-1000]AppZoneTestProjects.Functional.Runners.Login.LoginRunner" Expanded="true" Checked="true" />
+  </Nodes>
+</VisualState>
